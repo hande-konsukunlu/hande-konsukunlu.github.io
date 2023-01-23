@@ -130,6 +130,55 @@ ol li{
 
 }
 
+/*Alternative two-column layouts*/
+
+/*Left 70% - Right 30% */
+.pull-left-wide {
+  width: 70%;
+  float: left;
+}
+.pull-right-narrow {
+  width: 27%;
+  float: right;
+}
+.pull-right-narrow ~ * {
+  clear: both;
+}
+
+  /*Left 30% - Right 70% */
+.pull-left-narrow {
+  width: 30%;
+  float: left;
+}
+.pull-right-wide {
+  width: 67%;
+  float: right;
+}
+.pull-right-wide ~ * {
+  clear: both;
+}
+
+/* Four column layout */
+.four-column {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+/* Three column layout */
+.three-column {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /*code*/
 
@@ -259,3 +308,8 @@ table, th, td {
   height: 100%;
   background-color: whitesmoke;
 }
+
+.my-one-page-font {
+  font-size: 0.8px;
+}
+
