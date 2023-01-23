@@ -208,6 +208,8 @@ knitr::include_graphics("img/Boateng_etal_paper.PNG")
 ---
 # Ölçek Geliştirme Adımları (Devam):
 
+--
+
 .three-column[
 
 Ölçek Maddelerinin Geliştirilmesi
@@ -240,57 +242,6 @@ knitr::include_graphics("img/Phase2.png")
 knitr::include_graphics("img/Phase3.png")
 ```
 ]
-
-
-```{r eval=FALSE, fig.align='center', message=FALSE, warning=FALSE, include=FALSE, out.width="200%"}
-# Conclude the subgraph
-  "end") %>%
-  # remember to bind it together
-  paste(collapse = "\n")
-
-subgraph_phase2<- c(
-  # Make another subgraph
-  "subgraph Ölçeğin Denenmesi",
-    "S4[Örneklem Büyüklüğünün Belirlenmesi]",
-    "S5[Ölçeğin Hedef Kitle Üzerinde Denenmesi]",
-  # Conclude subgraph
-  "end") %>%
-  # Bind it!
-  paste(collapse = "\n ")
-
-subgraph_phase3 <- paste(
-  # Make another subgraph
-  "subgraph Geçerlik ve Güvenirliğinin Test Edilmesi",
-    # Draw events as boxes with []
-    "S6[Güvenirliğinin Test Edilmesi]",
-    "S7[Geçerliğinin Test Edilmesi]",
-    "S8[Ölçeğe Son Şeklinin Verilmesi]",
-  # Conclude the subgraph
-  "end",
-  sep = "\n ")
-
-ties  <- paste(
-  "S1--> S2",
-  "S2 --> S3",
-  "S3 --> S4",
-  "S4 --> S5",
-  "S5 --> S6",
-  "S6 --> S7",
-  "S7 --> S8",
-  sep = "\n ")
-
-c(intro, 
-    # Add subgraphs of nodes
-    subgraph_phase1,
-    subgraph_phase2,
-    subgraph_phase3,
-    # Add ties
-ties) %>%
-  # Paste them together
-  paste(collapse = "\n ") %>%
-  # And visualize it!
-  mermaid()
-```
 
 ---
 ## Aşama 1 - Ölçek Maddelerinin Geliştirilmesi
@@ -402,7 +353,7 @@ __Görünüş Geçerliği:__ Ölçme aracının neyi ölçtüğünü değil de n
 
 --
 
-_Hedef gruba ön deneme yapılır. 5-15 görüşmeci yeterlidir(Boateng, 2018)._
+_Hedef gruba ön deneme yapılır. 5-15 görüşmeci yeterlidir (Boateng, 2018)._
 
 ---
 
@@ -622,11 +573,9 @@ bilimi uzmanları, sosyologlar, Türk dili ve edebiyatı uzmanları, iletişim u
 
 ### Aşama 1: 
 
-* Revize edilmiş ölçek ile ikinci ön deneme 15 kişi ile
-
 * İkinci Hazırlık Çalıştayı (20 Uzman) <br> Madde analizleri - Güvenirlik katsayıları
 
-* Üçüncü ön deneme (150 görüşmeci) -  243 maddelik ikinci taslak <br>
+* İkinci ön deneme (150 görüşmeci) -  243 maddelik ikinci taslak <br>
 Ankara'nın Gölbaşı ilçesinde
 
 * Ön deneme sonuçlarının değerlendirilmesi (Araştırma ekibi tarafından) <br>
