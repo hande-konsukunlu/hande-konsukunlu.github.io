@@ -600,7 +600,7 @@ Sağlık okuryazarlığı düzeyinin düşük olmasının, sağlık bilgilerini 
 ### Aşama 1: 
 
 ```{r echo = FALSE, out.width ="95%"}
-knitr::include_graphics("img/Bloom_taksonomi.png")
+knitr::include_graphics("img/Bloom_taksonomi.PNG")
 ```
 ---
 
@@ -688,7 +688,7 @@ Bu analizler için FACTOR ver 10.8.02 programı ve R programlama dili ver. 4.0.0
 ### Aşama 3: Güvenirlik Sonuçları -- HÜ-SOY Ölçeği
 
 ```{r echo = FALSE, out.width ="95%"}
-knitr::include_graphics("img/hu_soy_guvenirlik.png")
+knitr::include_graphics("img/hu_soy_guvenirlik.PNG")
 ```
 ---
 
@@ -697,7 +697,7 @@ knitr::include_graphics("img/hu_soy_guvenirlik.png")
 ### Aşama 3: Güvenirlik Sonuçları -- Öz Yeterlilik Ölçeği
 
 ```{r echo = FALSE, out.width ="95%"}
-knitr::include_graphics("img/ozyeterlilik_guvenirlik.png")
+knitr::include_graphics("img/ozyeterlilik_guvenirlik.PNG")
 ```
 ---
 
@@ -706,7 +706,7 @@ knitr::include_graphics("img/ozyeterlilik_guvenirlik.png")
 ### Aşama 3: Geçerlik Sonuçları -- HÜ-SOY Ölçeği
 
 ```{r echo = FALSE, out.width ="580px"}
-knitr::include_graphics("img/hu_soy_gecerlik.png")
+knitr::include_graphics("img/hu_soy_gecerlik.PNG")
 ```
 ---
 
@@ -715,7 +715,7 @@ knitr::include_graphics("img/hu_soy_gecerlik.png")
 ### Aşama 3: Geçerlik Sonuçları -- Öz Yeterlilik Ölçeği
 
 ```{r echo = FALSE, out.width ="580px"}
-knitr::include_graphics("img/ozyeterlilik_gecerlik.png")
+knitr::include_graphics("img/ozyeterlilik_gecerlik.PNG")
 ```
 ---
 
